@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 char* compare(int gues, int num);
 int change(int num);
+
+srand(time_t);
 
 int main()
 {
